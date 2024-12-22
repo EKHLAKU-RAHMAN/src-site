@@ -1,0 +1,96 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College web</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+</head>
+<body>
+    
+<section class="sub-header">
+    <nav>
+        <a href="index.html"> <img src="images/logo.png"> </a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+
+
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT SRGC</a></li>
+                <li><a href="course.html">COURSE</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+
+<h1>About SRGC</h1>
+
+</section>
+
+<!-- about SRGC -->
+
+<section class="about-srgc">
+    <div class="row">
+        <div class="about-col">
+            <h1>SHRI RAM GROUP OF COLLEGES</h1>
+            <p>
+                <b>Shri Ram Group Of Colleges</b> is renowedee for its academic execellence and offers a wide spectrum of programs
+                at undergraduate and post-graduate level in <b>Engineering, Architecture, Pharmacy, Mangament,  Computer Application, Education,
+                Fine Arts, Journalism and Mass Communication, Law, Commerce, Bio science, Basic Science, Agriculture, Home Science,
+                Polytechnic, ITI </b> and more.
+                <br><br>
+                Our main goal at is to strive relentessly for providing quality education and atraining in challenging 
+                fields so as to  empower our Student to develop real life situaions to cater to the needs of professional education,
+                highly qualified academicians, prestigious bureaucrats and renowed industrialist  under the leadership of the 
+                eminent educationist <b>Dr. S.C Kulshreshtha </b> have formed.
+                <b>"Shri Ram Charitable Trust " </b>with an aim at promoting quality education at affordable fees.
+            </p>
+        </div>
+            <div class="about-col">
+                <img src="images/src 2.jpg" alt="">
+            </div>
+        </div>
+</section>
+
+
+
+
+<!-- Footer -->
+
+
+<div class="icons">
+    <i class="fa fa-facebook"></i>
+    <i class="fa fa-twitter"></i>
+    <i class="fa fa-instagram"></i>
+    <i class="fa fa-Linkedin"></i>
+</div>
+<p class="dev">Made with &hearts; By Rahman</p>
+</section>
+
+
+
+
+
+
+<!-- javascript for toggle menu -->
+
+<SCript>
+var navLinks = document.getElementById("navLinks");
+
+function showMenu(){
+    navLinks.style.right = "0";
+}
+function hideMenu(){
+    navLinks.style.right = "-200px";
+}
+
+</SCript>
+
+</body>
+</html>
